@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="68cb0926e27645c09445c13f33f67aac388ad2d68584831b1c93294eac0a0d9d.html">Testing The Serenity Demo Page</a></span>
+                > <span class="truncate-60"><a
+                    href="2b872112826824bcdac21fbe07c0c1496c02390e2d6e899ad8928de9a5b77bfb.html">Mike wants to create an unit bussiness </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 17-08-2022 13:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Testing The Serenity Demo Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Mike wants to create an unit bussiness
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="543f92962eed543bf1a7b07da36d75d6d6c0c2c321f3941a4b2770c1be481bb6.png" title=" Given That Mike opens the url to see the login page" width="1366"/>
+                <img src="a08b86b60d15bbb9ee0f0be5713475bd514dc76d8d752f477a12e3b629ebb671.png" title=" When Mike types the following data
+| user | password |
+| admin | serenity |" width="1366"/>
+                <img src="a08b86b60d15bbb9ee0f0be5713475bd514dc76d8d752f477a12e3b629ebb671.png" title=" Mike do the login" width="1366"/>
+                <img src="a08b86b60d15bbb9ee0f0be5713475bd514dc76d8d752f477a12e3b629ebb671.png" title=" Mike enters 'admin' into Text field for user" width="1366"/>
+                <img src="a08b86b60d15bbb9ee0f0be5713475bd514dc76d8d752f477a12e3b629ebb671.png" title=" Mike enters 'admin' into Text field for user (completed)" width="1366"/>
+                <img src="a08b86b60d15bbb9ee0f0be5713475bd514dc76d8d752f477a12e3b629ebb671.png" title=" Mike enters 'serenity' into Text field for password" width="1366"/>
+                <img src="be8c04044bc5aea75273e630ca4c1f0e3c77fa99372d78b8de6c8a3ae7c552d7.png" title=" Mike enters 'serenity' into Text field for password" width="1366"/>
+                <img src="be8c04044bc5aea75273e630ca4c1f0e3c77fa99372d78b8de6c8a3ae7c552d7.png" title=" Mike enters 'serenity' into Text field for password (completed)" width="1366"/>
+                <img src="be8c04044bc5aea75273e630ca4c1f0e3c77fa99372d78b8de6c8a3ae7c552d7.png" title=" Mike clicks on button to log in" width="1366"/>
+                <img src="a3bbf54b8512fe2bfbca304e73fe70dd616fa7060713f77f324e64d5aaee85c4.png" title=" Mike clicks on button to log in (completed)" width="1366"/>
+                <img src="4388b5dbdaa44e132de9bee6022491af3c131bde0f2337fa12d8125f58cd60cf.png" title=" Mike do the login (completed)" width="1366"/>
+                <img src="4388b5dbdaa44e132de9bee6022491af3c131bde0f2337fa12d8125f58cd60cf.png" title=" When Mike types the following data
+| user | password |
+| admin | serenity | (completed)" width="1366"/>
+                <img src="f66743d7c1a891754f9b214871c07a976126546be2fabb08286fc38741c352c0.png" title=" When Mike creates an new unit bussiness and setups a meeting" width="1366"/>
+                <img src="f66743d7c1a891754f9b214871c07a976126546be2fabb08286fc38741c352c0.png" title=" Mike create a new bussiness unit" width="1366"/>
+                <img src="42b7ebd09cb4b49a4cd53f453f4fec814dc13838cabbfbb25665503c94b590a7.png" title=" Mike clicks on dropdown list organization" width="1366"/>
+                <img src="af05bd12a5589be3b683ee6c0d3642046680c23151fcc0fd2dacb07abdf35dc1.png" title=" Mike clicks on dropdown list organization (completed)" width="1366"/>
+                <img src="af05bd12a5589be3b683ee6c0d3642046680c23151fcc0fd2dacb07abdf35dc1.png" title=" Mike clicks on button to see the bussiness unit" width="1366"/>
+                <img src="740c12c4ed9237ec7d9defd5180ce95e31423b61e7a1bb555d865df5ab2f8e36.png" title=" Mike clicks on button to see the bussiness unit (completed)" width="1366"/>
+                <img src="740c12c4ed9237ec7d9defd5180ce95e31423b61e7a1bb555d865df5ab2f8e36.png" title=" Mike clicks on button to create a new bussiness unit" width="1366"/>
+                <img src="2c4eac17de415e9aa94c68679345692f5d1e07d30f521b187c7ff8d5acd7f56d.png" title=" Mike clicks on button to create a new bussiness unit (completed)" width="1366"/>
+                <img src="2c4eac17de415e9aa94c68679345692f5d1e07d30f521b187c7ff8d5acd7f56d.png" title=" Mike clicks on button to create a new bussiness unit" width="1366"/>
+                <img src="f1643723696acdc4c6f3daf5218c9b09784f5d02dfdd6da6ba41cdd2c85316e0.png" title=" Mike clicks on button to create a new bussiness unit (completed)" width="1366"/>
+                <img src="f1643723696acdc4c6f3daf5218c9b09784f5d02dfdd6da6ba41cdd2c85316e0.png" title=" Mike enters 'Criptocoins' into field for the bussiness unit name" width="1366"/>
+                <img src="c4b1a0c5c2c0cce812d75b16657921909e22c4aecf65503e567488f02dc3b1b2.png" title=" Mike enters 'Criptocoins' into field for the bussiness unit name" width="1366"/>
+                <img src="c4b1a0c5c2c0cce812d75b16657921909e22c4aecf65503e567488f02dc3b1b2.png" title=" Mike enters 'Criptocoins' into field for the bussiness unit name (completed)" width="1366"/>
+                <img src="c4b1a0c5c2c0cce812d75b16657921909e22c4aecf65503e567488f02dc3b1b2.png" title=" Mike clicks on div with the parent unit list" width="1366"/>
+                <img src="61f07c5c1d24a800dbf3f82f07b7a4e03f87eb9ed4798ab6acdf37f9f0d63590.png" title=" Mike clicks on div with the parent unit list" width="1366"/>
+                <img src="61f07c5c1d24a800dbf3f82f07b7a4e03f87eb9ed4798ab6acdf37f9f0d63590.png" title=" Mike clicks on div with the parent unit list (completed)" width="1366"/>
+                <img src="61f07c5c1d24a800dbf3f82f07b7a4e03f87eb9ed4798ab6acdf37f9f0d63590.png" title=" Mike choose parent unit" width="1366"/>
+                <img src="1a67bad9f16af11ceb9c459cccd01df3aafe9ebe98a30bc2a9c8db6b7f1050d2.png" title=" Mike choose parent unit (completed)" width="1366"/>
+                <img src="1a67bad9f16af11ceb9c459cccd01df3aafe9ebe98a30bc2a9c8db6b7f1050d2.png" title=" Mike explicit wait" width="1366"/>
+                <img src="1a67bad9f16af11ceb9c459cccd01df3aafe9ebe98a30bc2a9c8db6b7f1050d2.png" title=" Mike explicit wait (completed)" width="1366"/>
+                <img src="1a67bad9f16af11ceb9c459cccd01df3aafe9ebe98a30bc2a9c8db6b7f1050d2.png" title=" Mike clicks on the button to save changes" width="1366"/>
+                <img src="1a67bad9f16af11ceb9c459cccd01df3aafe9ebe98a30bc2a9c8db6b7f1050d2.png" title=" Mike clicks on the button to save changes (completed)" width="1366"/>
+                <img src="1a67bad9f16af11ceb9c459cccd01df3aafe9ebe98a30bc2a9c8db6b7f1050d2.png" title=" Mike explicit wait" width="1366"/>
+                <img src="a80de86c40993d4a6404bc2b39450c27240e8f8a563f77415720498fb95ce772.png" title=" Mike explicit wait (completed)" width="1366"/>
+                <img src="a80de86c40993d4a6404bc2b39450c27240e8f8a563f77415720498fb95ce772.png" title=" Mike create a new bussiness unit (completed)" width="1366"/>
+                <img src="a80de86c40993d4a6404bc2b39450c27240e8f8a563f77415720498fb95ce772.png" title=" Mike create a new meeting" width="1366"/>
+                <img src="a80de86c40993d4a6404bc2b39450c27240e8f8a563f77415720498fb95ce772.png" title=" Mike clicks on dropdown list meetings" width="1366"/>
+                <img src="35ea53fbc0601ecc1247abdcfc918b01d19d7dfbb089a59258177cd104ded918.png" title=" Mike clicks on dropdown list meetings (completed)" width="1366"/>
+                <img src="35ea53fbc0601ecc1247abdcfc918b01d19d7dfbb089a59258177cd104ded918.png" title=" Mike clicks on button to see the meetings" width="1366"/>
+                <img src="d5d9d36c7f7a4fa0ceb8d3eeffb2038db95de508fe88224f830d609fe556b6e0.png" title=" Mike clicks on button to see the meetings (completed)" width="1366"/>
+                <img src="d5d9d36c7f7a4fa0ceb8d3eeffb2038db95de508fe88224f830d609fe556b6e0.png" title=" Mike should see text to validate that is displayed" width="1366"/>
+                <img src="d5d9d36c7f7a4fa0ceb8d3eeffb2038db95de508fe88224f830d609fe556b6e0.png" title=" Mike should see text to validate that is displayed (completed)" width="1366"/>
+                <img src="d5d9d36c7f7a4fa0ceb8d3eeffb2038db95de508fe88224f830d609fe556b6e0.png" title=" Mike clicks on button new meeting" width="1366"/>
+                <img src="b1feb9bf3ed686b3975f56e80f05da9b044f9fc6592c3a49b525e7687acda67b.png" title=" Mike clicks on button new meeting (completed)" width="1366"/>
+                <img src="b1feb9bf3ed686b3975f56e80f05da9b044f9fc6592c3a49b525e7687acda67b.png" title=" Mike enters 'Meeting_test' into field for the meeting name" width="1366"/>
+                <img src="c5cd5cdec32620c09c82494201814a302877392138a3d95e59a4850651d00e0b.png" title=" Mike enters 'Meeting_test' into field for the meeting name" width="1366"/>
+                <img src="c5cd5cdec32620c09c82494201814a302877392138a3d95e59a4850651d00e0b.png" title=" Mike enters 'Meeting_test' into field for the meeting name (completed)" width="1366"/>
+                <img src="c5cd5cdec32620c09c82494201814a302877392138a3d95e59a4850651d00e0b.png" title=" Mike clicks on dropdown list for the meeting type" width="1366"/>
+                <img src="3f6d983034a2a49e8659f17557700dd3e65161ae7e17479d66bc85520f76b366.png" title=" Mike clicks on dropdown list for the meeting type" width="1366"/>
+                <img src="3f6d983034a2a49e8659f17557700dd3e65161ae7e17479d66bc85520f76b366.png" title=" Mike clicks on dropdown list for the meeting type (completed)" width="1366"/>
+                <img src="3f6d983034a2a49e8659f17557700dd3e65161ae7e17479d66bc85520f76b366.png" title=" Mike choose meeting type" width="1366"/>
+                <img src="55dfe0cff7d48f7316ceb17af6f45a5e1035eb86cac5254af6688a14f9425a71.png" title=" Mike choose meeting type (completed)" width="1366"/>
+                <img src="55dfe0cff7d48f7316ceb17af6f45a5e1035eb86cac5254af6688a14f9425a71.png" title=" Mike clicks on field for the date" width="1366"/>
+                <img src="c59b698508ecb0037f967337305d33fadc0298f3eda97641cefa178c2664daa5.png" title=" Mike clicks on field for the date" width="1366"/>
+                <img src="c59b698508ecb0037f967337305d33fadc0298f3eda97641cefa178c2664daa5.png" title=" Mike clicks on field for the date (completed)" width="1366"/>
+                <img src="c59b698508ecb0037f967337305d33fadc0298f3eda97641cefa178c2664daa5.png" title=" Mike clears field field for the date" width="1366"/>
+                <img src="bf4ae7bf4240f96cbfddc129622a838b84fa21bb6051f665c3b5193c2518b415.png" title=" Mike clears field field for the date (completed)" width="1366"/>
+                <img src="bf4ae7bf4240f96cbfddc129622a838b84fa21bb6051f665c3b5193c2518b415.png" title=" Mike enters '07/14/2022' into field for the date" width="1366"/>
+                <img src="b87a5c2f1e62b897f6788bf764a3066414c9940c4f7a269b1e8c1ae0ba3ea8d6.png" title=" Mike enters '07/14/2022' into field for the date (completed)" width="1366"/>
+                <img src="b87a5c2f1e62b897f6788bf764a3066414c9940c4f7a269b1e8c1ae0ba3ea8d6.png" title=" Mike clicks on start hour to choose" width="1366"/>
+                <img src="22be3e4ee9e90bdbc93248bd823109debdbcc03b4e5ab1584de5050d1a3dd35a.png" title=" Mike clicks on start hour to choose (completed)" width="1366"/>
+                <img src="22be3e4ee9e90bdbc93248bd823109debdbcc03b4e5ab1584de5050d1a3dd35a.png" title=" Mike enters 'HQ-02' into meeting number label" width="1366"/>
+                <img src="d35ed24a4e09f45a231cc1fe0cfa7671ed7de62494a0bf5b59ffc8c1127cf7a9.png" title=" Mike enters 'HQ-02' into meeting number label (completed)" width="1366"/>
+                <img src="d35ed24a4e09f45a231cc1fe0cfa7671ed7de62494a0bf5b59ffc8c1127cf7a9.png" title=" Mike clicks on end date field" width="1366"/>
+                <img src="94e415b4c2e4bcd6c47905647b7b7eee0ecf8c59e59e04a4af85b70d35a4972c.png" title=" Mike clicks on end date field (completed)" width="1366"/>
+                <img src="94e415b4c2e4bcd6c47905647b7b7eee0ecf8c59e59e04a4af85b70d35a4972c.png" title=" Mike clears field end date field" width="1366"/>
+                <img src="28b9163cbd8832c63751af92e7a9f2cd3a175bfac13165442f5e18376eb09f97.png" title=" Mike clears field end date field (completed)" width="1366"/>
+                <img src="28b9163cbd8832c63751af92e7a9f2cd3a175bfac13165442f5e18376eb09f97.png" title=" Mike enters '02/02/2023' into end date field" width="1366"/>
+                <img src="580efc5be0a2aaa75532461f70a765092531c21a2ff41795c289c79232c2cf8b.png" title=" Mike enters '02/02/2023' into end date field (completed)" width="1366"/>
+                <img src="580efc5be0a2aaa75532461f70a765092531c21a2ff41795c289c79232c2cf8b.png" title=" Mike clicks on location to select" width="1366"/>
+                <img src="43b71771ee33bfd0b2831045501a5fae43c1c7eb8da09585dfde4d33178f5135.png" title=" Mike clicks on location to select" width="1366"/>
+                <img src="43b71771ee33bfd0b2831045501a5fae43c1c7eb8da09585dfde4d33178f5135.png" title=" Mike clicks on location to select (completed)" width="1366"/>
+                <img src="43b71771ee33bfd0b2831045501a5fae43c1c7eb8da09585dfde4d33178f5135.png" title=" Mike choose location options" width="1366"/>
+                <img src="c1d848a7ad5180ada43d07553ca62cb6794a6e2c8cd8e8b23385527787996c8a.png" title=" Mike choose location options (completed)" width="1366"/>
+                <img src="c1d848a7ad5180ada43d07553ca62cb6794a6e2c8cd8e8b23385527787996c8a.png" title=" Mike clicks on location to select" width="1366"/>
+                <img src="5bb0587031dede973c90c76c0da4582753fa739c11f2594556ea5012eaba88bb.png" title=" Mike clicks on location to select" width="1366"/>
+                <img src="5bb0587031dede973c90c76c0da4582753fa739c11f2594556ea5012eaba88bb.png" title=" Mike clicks on location to select (completed)" width="1366"/>
+                <img src="5bb0587031dede973c90c76c0da4582753fa739c11f2594556ea5012eaba88bb.png" title=" Mike choose organizer" width="1366"/>
+                <img src="3744a2f059acd636bf04e100093866367e0271ecbda212a60e3ee25675f3516e.png" title=" Mike choose organizer (completed)" width="1366"/>
+                <img src="3744a2f059acd636bf04e100093866367e0271ecbda212a60e3ee25675f3516e.png" title=" Mike clicks on unit input" width="1366"/>
+                <img src="6a53ed8de785487c4a54f5107c5daf0f9f2a70f3b44a2a898cbf52f0e1a6be00.png" title=" Mike clicks on unit input" width="1366"/>
+                <img src="6a53ed8de785487c4a54f5107c5daf0f9f2a70f3b44a2a898cbf52f0e1a6be00.png" title=" Mike clicks on unit input (completed)" width="1366"/>
+                <img src="6a53ed8de785487c4a54f5107c5daf0f9f2a70f3b44a2a898cbf52f0e1a6be00.png" title=" Mike choose unit" width="1366"/>
+                <img src="b4955a0b076edbccb11d1ade02bbb351fe8397bfe615e3e479eaebed998941f2.png" title=" Mike choose unit (completed)" width="1366"/>
+                <img src="b4955a0b076edbccb11d1ade02bbb351fe8397bfe615e3e479eaebed998941f2.png" title=" Mike clicks on reporter list" width="1366"/>
+                <img src="d2a2ee05b3854468c1025148f55be8979a1633db0420a143f7dadc32e56d8509.png" title=" Mike clicks on reporter list" width="1366"/>
+                <img src="d2a2ee05b3854468c1025148f55be8979a1633db0420a143f7dadc32e56d8509.png" title=" Mike clicks on reporter list (completed)" width="1366"/>
+                <img src="d2a2ee05b3854468c1025148f55be8979a1633db0420a143f7dadc32e56d8509.png" title=" Mike choose reporter" width="1366"/>
+                <img src="3fd8f10b93b037c33426b9556a6cc06fdbe7777017f486e7a207df4a324bb75a.png" title=" Mike choose reporter (completed)" width="1366"/>
+                <img src="3fd8f10b93b037c33426b9556a6cc06fdbe7777017f486e7a207df4a324bb75a.png" title=" Mike clicks on attendee list to choose" width="1366"/>
+                <img src="db53a24be157a5ab4e61722ff9b9373ce5b961384d9f3e7e2ae05f7db7174b38.png" title=" Mike clicks on attendee list to choose" width="1366"/>
+                <img src="db53a24be157a5ab4e61722ff9b9373ce5b961384d9f3e7e2ae05f7db7174b38.png" title=" Mike clicks on attendee list to choose (completed)" width="1366"/>
+                <img src="db53a24be157a5ab4e61722ff9b9373ce5b961384d9f3e7e2ae05f7db7174b38.png" title=" Mike choose atendee" width="1366"/>
+                <img src="43b262669c4e751661d34008155668257ee2428d1a078561a70d9c9182e86336.png" title=" Mike choose atendee (completed)" width="1366"/>
+                <img src="43b262669c4e751661d34008155668257ee2428d1a078561a70d9c9182e86336.png" title=" Mike clicks on button to save the meeting" width="1366"/>
+                <img src="069dda672350249bc99444a5545dbf141e2472f49705007f30a15199ee577813.png" title=" Mike clicks on button to save the meeting" width="1366"/>
+                <img src="069dda672350249bc99444a5545dbf141e2472f49705007f30a15199ee577813.png" title=" Mike clicks on button to save the meeting (completed)" width="1366"/>
+                <img src="069dda672350249bc99444a5545dbf141e2472f49705007f30a15199ee577813.png" title=" Mike explicit wait" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Mike explicit wait (completed)" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Mike should see user validate that is displayed" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Mike should see user validate that is displayed (completed)" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Mike create a new meeting (completed)" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" When Mike creates an new unit bussiness and setups a meeting (completed)" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Then Mike will be able see the meeting was succesfully scheduled" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Then validate the meeting name" width="1366"/>
+                <img src="5a90437358d89d3f48feb1366537d11d2200daa6e0aa7a35c48c0ee9c6590cb8.png" title=" Then Mike will be able see the meeting was succesfully scheduled (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>
